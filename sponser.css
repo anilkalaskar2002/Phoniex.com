@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navBar{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(88, 88, 88);
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBarLogo{
+    height: 80%;
+    width: 10%;
+    margin: 1vw 0 1.2vw 1.5vw;
+    border-radius: 50%;
+}
+.navBarLogo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+.navBarLogo:hover{
+    box-shadow: 0 0 10px white;
+    transition: .3s all ease;
+}
+
+.navBarIcons{
+    
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5vw;
+    margin-right: 2vw;
+}
+.navBarIcons h1{
+    padding: 10px 20px;
+    border: 1px solid rgb(177, 176, 176);
+    border-radius: 40px;
+
+    position: relative;
+    overflow: hidden;
+}
+.navBarIcons h1::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    left: 0;
+    bottom: -100%;
+    border-radius: 40px;
+    transition: all ease .3s;
+
+}
+.navBarIcons h1:hover::after{
+    bottom: 0;
+}
+.navBarIcons h1 a{
+    
+   text-decoration: none;
+   color: white;
+   z-index: 1;
+   font-size: 1.5vw;
+   position: relative;
+}
+.navBarIcons h1:hover a{
+    color: blue;
+}
+.navBarIcons .register{
+  
+    background-color: rgb(241, 223, 208);
+    
+}
+
+.cont12{
+    width: 100%;
+    min-height: 80vh;
+}
+.heading1{
+    width: 100%;
+    height: 10vw;
+    text-align: center;
+    padding-top: 10vw;
+}
+
+.logos{
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo1{
+    width: 8%;
+    height: 50%;
+}
+.logo1:hover{
+    border: 1px solid black;
+}
+.logo1 img{
+    width: 100%;
+    height: 100%;
+}
+.logo2{
+    width: 8%;
+    height: 50%;
+}
+.logo2:hover{
+    border: 1px solid black;
+}
+.logo2 img{
+    width: 100%;
+    height: 100%;
+}
+.logo3{
+    width: 8%;
+    height: 50%;
+}
+.logo3:hover{
+    border: 1px solid black;
+}
+.logo3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.cont6{
+    width: 100%;
+    height: 10vw;
+    background-color: rgb(37, 118, 118);
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo{
+    width: 100%;
+    height: 2vw;
+    padding: 3vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo h1{
+    font-size: 2.6vw;
+    color: white;
+    text-shadow: 0 0 30px rgb(20, 20, 81);
+}
+.contactLogo{
+    width: 100%;
+    height: 4vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont6 .foot{
+    width: 3vw;
+    height: 3vw;
+    margin: 0 2vw;
+    border-radius: 2vw;
+    transition:.3s all ease;
+}
+.foot img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+}
+
+.foot:hover {
+    transform: scale(1.2);
+    transition:.3s all ease;
+
+}
+
+
